@@ -1,0 +1,17 @@
+server:
+  port: 9000
+
+spring:
+  boot:
+    admin:
+      ui:
+        title: Blunt Admin Service
+        brand: <img src='img/blunt.png'><span>Blunt Admin Service</span>
+
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+
+logging:
+  path: C:/Users/kpaulpa/Documents/workArea/TechnicalWork/logs/blunt-admin-service
